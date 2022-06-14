@@ -1,0 +1,15 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.tuitt-button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
