@@ -19,6 +19,7 @@ body {
 
 
 
+
 .greeting {
   position: absolute;
   right: 1px;
@@ -73,7 +74,7 @@ background-size: cover;
 }
 
 
-.project-title {
+#project-title {
 	color:#3F3A36;
 	padding-top: 2rem;
 	text-align: center;
@@ -107,7 +108,7 @@ background-size: cover;
 	text-align: justify;
 }
 
-.about-title {
+#about-title {
 	margin-top: 2rem;
 	text-align: center;
 	font-weight:  bold;
