@@ -66,12 +66,15 @@ background-size: cover;
 
 
 .project-container {
-	background-color: #C4391D
+	background-color: #FDD550 ;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
 }
 
 
 .project-title {
-	color: #FFFAEB;
+	color:#3F3A36;
 	padding-top: 2rem;
 	text-align: center;
 }
@@ -86,14 +89,14 @@ background-size: cover;
 }
 
 .card {
-	background-color: #FDD550;
-
+	background-color: #FFA409;
 
 }
 
 
 .card-title {
 	text-align: center;
+	color: #3F3A36;
 }
 
 .card-subtitle {
@@ -140,12 +143,22 @@ background-size: cover;
 	text-align: justify;
 }
 
+.soc-title {
+	text-align: center;
+}
+
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+
+/*col-sm-12 col-md-8 col-lg-8 col-xl-4>*/
 
 .contact-us {
 	display: flex;
 	flex-direction: row;
 }
-
 
 
 
@@ -170,6 +183,7 @@ background-size: cover;
 .container {
 	background-color: #FDD550 ;
 	margin-bottom: 3rem;
+	margin-top: 3rem;
 	color: #3F3A36;
 	text-align: center;
 }
@@ -184,21 +198,13 @@ background-size: cover;
   text-decoration: bold;
 }
 
-.socmed {
-	text-align: center;
-	display: flex;
-}
 
-.soc-title {
-	text-align: center;
 
-}
 
 .fb {
 	margin-left: 3rem;
 	margin right: 3rem;
 	padding: 3rem;
-	color: black;
 
 }
 
@@ -206,13 +212,12 @@ background-size: cover;
 	margin-left: 3rem;
 	margin right: 3rem;
 	padding: 3rem;
-	color: black;
+	
 }
 
 .yt {
 	margin-left: 3rem;
 	margin right: 3rem;
 	padding: 3rem;
-	color: black;
 }
 
