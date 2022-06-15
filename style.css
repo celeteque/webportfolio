@@ -15,17 +15,13 @@ body {
 	height: 60;
 }
 
-.description {
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	padding: 3rem;
-}
+
+
 
 
 .greeting {
   position: absolute;
-  right: 0px;
+  right: 1px;
   width: 500px;
   padding: 3rem;
   text-align: right;
@@ -50,16 +46,173 @@ background-size: cover;
 	border-radius: 25px;
 	font-size: 1rem;
 	margin-top: 1rem;
+	margin-bottom: 1rem;
 	padding: 1rem;
+}
+
+
+.btn1 {
+	color: white;
+	font-weight: bold;
+	background-color: #FFA409;
+	box-sizing: 1rem;
+	border-radius: 25px;
+	font-size: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 1rem;
+}
+}
+
+
+.project-container {
+	background-color: #C4391D
+}
+
+
+.project-title {
+	color: #FFFAEB;
+	padding-top: 2rem;
+	text-align: center;
 }
 
 .projects {
 	background-color: #C4391D;
-	color: #FFFAEB;
-	padding-left: 3rem;
-	padding-right: 3rem;
-	padding-top: 2rem;
-	margin-top: 1rem;
+	color: #3F3A36;
+	border-color: black;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 1rem;
+}
+
+.card {
+	background-color: #FDD550;
+
 
 }
-bg-secondary text-light min-vh-100 p-5
+
+
+.card-title {
+	text-align: center;
+}
+
+.card-subtitle {
+	text-align: center;
+}
+
+.card-text {
+	text-align: justify;
+}
+
+.about-title {
+	margin-top: 2rem;
+	text-align: center;
+	font-weight:  bold;
+}
+
+.AboutMe {
+	background-color: #C4391D;
+	color: #FFFAEB;
+	display: flex;
+	flex-direction: row;
+	padding: 3rem;
+	margin :  3rem;
+	text-align: center;
+}
+
+@media (max-width: 800px) {
+  .AboutMe {
+    flex-direction: column;
+  }
+}
+
+
+
+.gracepic2 {
+	width: 250px;
+	width: 250px;
+}
+
+
+.about-description {
+	padding: 10px;
+  flex: 50%;
+	text-align: justify;
+}
+
+
+.contact-us {
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+
+/*p-3 col-sm-12 col-md-8 col-lg-8 col-xl-4
+*/
+
+.contact-title {
+	color: #FFFAEB;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+
+.ContactMe {
+	text-align: center;
+	padding: 1rem;
+	margin: 1rem;
+	column: small;
+}
+
+
+.container {
+	background-color: #FDD550 ;
+	margin-bottom: 3rem;
+	color: #3F3A36;
+	text-align: center;
+}
+
+
+.footer {
+  background-color: #C4391D;
+ 	color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+  text-decoration: bold;
+}
+
+.socmed {
+	text-align: center;
+	display: flex;
+}
+
+.soc-title {
+	text-align: center;
+
+}
+
+.fb {
+	margin-left: 3rem;
+	margin right: 3rem;
+	padding: 3rem;
+	color: black;
+
+}
+
+.ig {
+	margin-left: 3rem;
+	margin right: 3rem;
+	padding: 3rem;
+	color: black;
+}
+
+.yt {
+	margin-left: 3rem;
+	margin right: 3rem;
+	padding: 3rem;
+	color: black;
+}
+
